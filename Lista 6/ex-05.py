@@ -19,10 +19,10 @@ if maior==x:
     else:
         segun_maior=y
 if maior==z:
-    if x>z:
+    if x>y:
         segun_maior=x
     else:
-        segun_maior=z
+        segun_maior=y
 #fazendo o looping aqui:
 while segun_maior<maior:
     segun_maior=segun_maior+1
